@@ -1,0 +1,7 @@
+create database registro_evento;
+use database registro_evento;
+create table dato(id int primary_key auto_increment,
+nombre varchar(45),
+apellido varchar(45),
+correo varchar(45),
+telefono varchar(45));
